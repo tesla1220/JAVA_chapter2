@@ -38,14 +38,14 @@ public class Application01 {
         
         int firstNum = 20;
         
-        int result1 = firstNum++ * 3;
+        int result1 = firstNum++ * 3; //        result1 = 60
 
         System.out.println("result1 = " + result1);
         System.out.println("firstNum = " + firstNum);
         
         int secondNum = 20;
         
-        int result2 = ++secondNum * 3;
+        int result2 = ++secondNum * 3;      // result2 = 63         '++secondNum = 21'
 
         System.out.println("result2 = " + result2);
         System.out.println("secondNum = " + secondNum);
